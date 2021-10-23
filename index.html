@@ -1,80 +1,163 @@
 <!DOCTYPE html>
-<html lang="ua">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta name="theme-color" content="#111111" />
-		<title>EvoBioSpace - Научись управлять своей жизнью</title>
-		<!-- <link
-			rel="stylesheet"
-			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-		/> -->
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-		/>
-		<link rel="stylesheet" href="css/main.min.css" />
-	</head>
-	<body>
-		<!-- Header start -->
-		<header class="header">
-			<div class="header__container">
-				<div class="header__body">
-					<nav class="header__menu">
-						<ul class="header__list">
-							<li class="header__link active-link">Главная</li>
-							<li class="header__link">Об авторе</li>
-							<li class="header__link">О методике</li>
-							<li class="header__link">Ступени обучения</li>
-							<li class="header__link">Контакты</li>
-						</ul>
-					</nav>
-					<div class="header__burger">
-						<span></span>
-					</div>
-					<div class="phone">+7 923 111 60 73</div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <title>EvoBioSpace</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <a href="#" class="logo header__logo">
+      <!-- <img src="img/logo.svg" alt="EvoBioSpace"></img> -->
+      <img src="img/logo.png" alt="EvoBioSpace"></img>
+    </a>
+    <div class="menu__block">
+    <nav class="header__menu menu">
+      <div class="burger">
+        <span></span>
+      </div>
+      <span class="menu_line"></span>
+      <ul class="menu--list">
+        <li class="menu--list__item active__menu-item"><a href="#main" class="menu--list__link scroll-to active">Главная</a></li>
+        <li class="menu--list__item"><a href="#author" class="menu--list__link scroll-to">Об авторе</a></li>
+        <li class="menu--list__item"><a href="#method" class="menu--list__link scroll-to">О методике</a></li>
+        <li class="menu--list__item"><a href="#steps" class="menu--list__link scroll-to">Ступени обучения</a></li>
+        <li class="menu--list__item"><a href="#teachers" class="menu--list__link scroll-to">Наша команда</a></li>
+        <li class="menu--list__item"><a href="#contacts" class="menu--list__link scroll-to">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="phone header__phone">+7 923 111 60 73</div>
+  </div>
+  </div>
+</header>
+ 
+      <div class="intro container section scroll-to" id="main">
+	<div class="intro__slider">
+		<div class="slider__slide active">
+			<img align="middle" src="img/bg1.jpg" alt="Slide 1" />
+			<div class="slide main__contant">
+				<div class="main__contant-title">
+					<span>Вселенная твоего сознания</span>
 				</div>
-			</div>
-		</header>
-		<!-- Header end -->
-
-		<!-- Main screen start -->
-		<div class="main__container" id="main">
-			<div class="image__slider">
-				<div class="image-slider__image">
-					<img src="img/bg1.jpg" alt="Slide 1" />
-					<div class="main__contant">
-						<div class="main__contant-title">
-							<h1>Вселенная твоего сознания</h1>
-						</div>
-						<div class="main__contant-desc">
-							<h2>Открой путь к своей свободе</h2>
-						</div>
-					</div>
-		
-				</div>
-				<div class="image-slider__image">
-					<img src="img/bg2.jpg" alt="Slide 2" />
-					<div class="main__contant">
-						<div class="main__contant-title">
-							<h1>Становление твоего внутреннего Я</h1>
-						</div>
-						<div class="main__contant-desc">
-							<h2>По методике внутренней энергоинформационной незовисимости в школе</h2>
-							<h3>EVOBIOSPACE</h3>
-						</div>
-					</div>
-		
+				<div class="main__contant-desc">
+					<span>Открой путь к своей свободе</span>
 				</div>
 			</div>
 		</div>
-		<!-- Main screen end -->
+		<div class="slider__slide">
+			<img align="middle" src="img/bg2.jpg" alt="Slide 1" />
+			<div class="slide main__contant">
+				<div class="main__contant-title">
+					<span>Становление твоего внутреннего Я</span>
+				</div>
+				<div class="main__contant-desc">
+					<span>По методике внутренней энергоинформационной независимости в школе</span>
+					<h1>EVOBIOSPACE</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper__down">
+		<button type="button" class="scroll_down" id="scroll_down"></button>
+	</div>
+</div>
 
-		<!-- About author screen start -->
-		<div class="container container__autor" id="about_author">
+      <div class="container container__screen2" id="screen2">
+	<!-- <div class="container__title">
+		<h2 class="container__title-title"></h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"></span>
+	</div> -->
+	<div class="container__content">
+		<div class="cards">
+			<div class="cards__card-row cards__card--left">
+				<div class="cards__card">
+					<div class="cards__card-content">
+						<span>НАШ ПОДХОД ДЛЯ ТЕХ, КТО</span>
+						<p>
+							Хочет почувствовать себя по-настоящему живым и обрести свободу
+							мышления.
+						</p>
+						<p>
+							Стремится к определению своего места и роли в изменяющемся мире и
+							выбирает для этого самостановление.
+						</p>
+						<p>
+							Прошел множество практик и школ, но так и не научился системно и
+							целостно строить картину своего бытия.
+						</p>
+						<p>
+							Чувствует свой потенциал, но не нашёл способа для полной его
+							реализации.
+						</p>
+						<span>Добро пожаловать в эволюционное пространство EVOSPACE</span>
+					</div>
+				</div>
+				<div class="cards__card">
+					<div class="cards__card-content">
+						<img src="img/screen2_1.jpg" alt="Курс 1" />
+					</div>
+				</div>
+			</div>
+			<div class="cards__card-row">
+				<div class="cards__card">
+					<div class="cards__card-content">
+						<img src="img/screen2_2.jpg" alt="Курс 1" />
+					</div>
+				</div>
+				<div class="cards__card">
+					<div class="cards__card-content">
+						<span>В ПРОЦЕССЕ ОБУЧЕНИЯ</span>
+						<p>МЫ ОКАЗЫВАЕМ ПОМОЩЬ в разблокировке сознания.</p>
+						<p>
+							ДАЕМ ЗНАНИЯ о факторах внешнего влияния на сознание человека,
+							основах самоуправления собственными внутренними ресурсами.
+						</p>
+						<p>
+							СПОСОБСТВУЕМ ФОРМИРОВАНИЮ вами внутреннего энергообмена как основы
+							целостного Я.
+						</p>
+						<p>
+							ОКАЗЫВАЕМ СОДЕЙСТВИЕ в создании, инсталляции и запуске в действие
+							личной программы саморазвития.
+						</p>
+						<p>
+							ОБУЧАЕМ динамической саморегуляции - основе самоуправления и
+							коррекции.
+						</p>
+						<p>ПОМОГАЕМ в определении целей дальнейшего развития.</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="cards__card">
+				<div class="cards__card-content">
+					<img src="img/screen2_2.jpg" alt="Курс 1" />
+				</div>
+			</div>
+			<div class="cards__card">
+				<div class="cards__card-content">
+					<span>В ПРОЦЕССЕ ОБУЧЕНИЯ</span>
+					<p>МЫ ОКАЗЫВАЕМ ПОМОЩЬ в разблокировке сознания.</p>
+					<p>ДАЕМ ЗНАНИЯ о факторах внешнего влияния на сознание человека, основах самоуправления собственными внутренними ресурсами.</p>
+					<p>СПОСОБСТВУЕМ ФОРМИРОВАНИЮ вами внутреннего энергообмена как основы целостного Я.</p>
+					<p>ОКАЗЫВАЕМ СОДЕЙСТВИЕ в создании, инсталляции и запуске в действие личной программы саморазвития.</p>
+					<p>ОБУЧАЕМ динамической саморегуляции - основе самоуправления и коррекции.</p>
+					<p>ПОМОГАЕМ в определении целей дальнейшего развития.</p>
+				</div>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+      		<!-- About author screen start -->
+		<div class="container section container__autor scroll-to" id="author">
 			<div class="container__title">
 				<h2 class="container__title-title">Об авторе</h2>
 			</div>
@@ -129,249 +212,229 @@
 		</div>
 		<!-- About author screen end -->
 
-		<!-- About method screen start -->
-		<div class="container container__method" id="about_method">
-			<div class="container__title">
-				<h2 class="container__title-title">О методике</h2>
-			</div>
-			<div class="container__desc">
-				<span class="container__desc-desc"
-					>Мы предлагаем обучение на разных уровнях для тех, кто хочет научиться
-					управлять собой и своей жизнью.</span
-				>
-			</div>
-			<div class="container__content">
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-			</div>
-			<div class="container__desc-btn">
-				<a class="btn-link" href="#">Подробнее</a>
-			</div>
-		</div>
-		<!-- About method screen end -->
+      <div class="container section container__method scroll-to" id="method">
+	<div class="container__title">
+		<h2 class="container__title-title">О методике</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"
+			>Мы предлагаем обучение на разных уровнях для тех, кто хочет научиться
+			управлять собой и своей жизнью.</span
+		>
+	</div>
+	<div class="container__content">
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
+			tenetur reprehenderit ratione labore similique cumque deserunt,
+			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
+			iste accusantium mollitia repellat. Adipisci temporibus qui,
+			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
+			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
+			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
+			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
+			asperiores harum necessitatibus natus. Modi architecto consectetur
+			natus quas molestiae, possimus harum laborum quis quasi inventore
+			pariatur qui ducimus sint corporis aliquid!
+		</p>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
+			tenetur reprehenderit ratione labore similique cumque deserunt,
+			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
+			iste accusantium mollitia repellat. Adipisci temporibus qui,
+			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
+			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
+			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
+			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
+			asperiores harum necessitatibus natus. Modi architecto consectetur
+			natus quas molestiae, possimus harum laborum quis quasi inventore
+			pariatur qui ducimus sint corporis aliquid!
+		</p>
+		<p>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
+			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
+			tenetur reprehenderit ratione labore similique cumque deserunt,
+			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
+			iste accusantium mollitia repellat. Adipisci temporibus qui,
+			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
+			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
+			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
+			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
+			asperiores harum necessitatibus natus. Modi architecto consectetur
+			natus quas molestiae, possimus harum laborum quis quasi inventore
+			pariatur qui ducimus sint corporis aliquid!
+		</p>
+	</div>
+	<div class="container__desc-btn">
+		<a class="btn-link" href="#">Подробнее</a>
+	</div>
+</div>
 
-		<!-- Courses screen start -->
-		<div class="container container__steps" id="steps">
-			<div class="container__title">
-				<h2 class="container__title-title">Итак...</h2>
+      <div class="container section container__steps scroll-to" id="steps">
+	<div class="container__title">
+		<h2 class="container__title-title">Итак...</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"
+			>Мы предлагаем обучение на разных уровнях для тех, кто хочет научиться
+			управлять собой и своей жизнью. Обучение основано на авторской
+			методике Николенко Валерия Ивановича</span
+		>
+	</div>
+	<div class="container__content">
+		<div class="courses">
+			<div class="course__card">
+				<div class="course__card-photo">
+					<img src="img/course1.jpg" alt="Курс 1" />
+				</div>
+				<div class="course__card-title">Курс "Основы самоуправления"</div>
+				<div class="course__card-desc">
+					Базовая ступень, в результате освоения которой вы получите
+					основные навыки самоуправления.
+				</div>
+				<div class="course__card-btn">
+					<a class="course__card-btnlink" href="#">Подробнее</a>
+				</div>
 			</div>
-			<div class="container__desc">
-				<span class="container__desc-desc"
-					>Мы предлагаем обучение на разных уровнях для тех, кто хочет научиться
-					управлять собой и своей жизнью. Обучение основано на авторской
-					методике Николенко Валерия Ивановича</span
-				>
+			<div class="course__card">
+				<div class="course__card-photo">
+					<img src="img/course2.jpg" alt="Курс 2" />
+				</div>
+				<div class="course__card-title">Курс "Управление собой 2.0"</div>
+				<div class="course__card-desc">
+					Второй уровень, где вы сможете углубить свои навыки..
+				</div>
+				<div class="course__card-btn">
+					<a class="course__card-btnlink" href="#">Подробнее</a>
+				</div>
 			</div>
-			<div class="container__content">
-				<div class="courses">
-					<div class="course__card">
-						<div class="course__card-photo">
-							<img src="img/course1.jpg" alt="Курс 1" />
-						</div>
-						<div class="course__card-title">Курс "Основы самоуправления"</div>
-						<div class="course__card-desc">
-							Базовая ступень, в результате освоения которой вы получите
-							основные навыки самоуправления.
-						</div>
-						<div class="course__card-btn">
-							<a class="course__card-btnlink" href="#">Подробнее</a>
-						</div>
-					</div>
-					<div class="course__card">
-						<div class="course__card-photo">
-							<img src="img/course2.jpg" alt="Курс 2" />
-						</div>
-						<div class="course__card-title">Курс "Управление собой 2.0"</div>
-						<div class="course__card-desc">
-							Второй уровень, где вы сможете углубить свои навыки..
-						</div>
-						<div class="course__card-btn">
-							<a class="course__card-btnlink" href="#">Подробнее</a>
-						</div>
-					</div>
-					<div class="course__card">
-						<div class="course__card-photo">
-							<img src="img/course3.jpg" alt="Курс 3" />
-						</div>
-						<div class="course__card-title">Практический курс 2.5</div>
-						<div class="course__card-desc">
-							Повышение квалификации за счет большого количества практики
-						</div>
-						<div class="course__card-btn">
-							<a class="course__card-btnlink" href="#">Подробнее</a>
-						</div>
-					</div>
-					<div class="course__card">
-						<div class="course__card-photo">
-							<img src="img/course4.jpg" alt="Курс 4" />
-						</div>
-						<div class="course__card-title">
-							Курс "Управление реальностью 3.0"
-						</div>
-						<div class="course__card-desc">
-							Профессиональный уровень владения техникой, в результате которого
-							вы научитесь работать с другими людьми.
-						</div>
-						<div class="course__card-btn">
-							<a class="course__card-btnlink" href="#">Подробнее</a>
-						</div>
-					</div>
+			<div class="course__card">
+				<div class="course__card-photo">
+					<img src="img/course3.jpg" alt="Курс 3" />
+				</div>
+				<div class="course__card-title">Практический курс 2.5</div>
+				<div class="course__card-desc">
+					Повышение квалификации за счет большого количества практики
+				</div>
+				<div class="course__card-btn">
+					<a class="course__card-btnlink" href="#">Подробнее</a>
+				</div>
+			</div>
+			<div class="course__card">
+				<div class="course__card-photo">
+					<img src="img/course4.jpg" alt="Курс 4" />
+				</div>
+				<div class="course__card-title">
+					Курс "Управление реальностью 3.0"
+				</div>
+				<div class="course__card-desc">
+					Профессиональный уровень владения техникой, в результате которого
+					вы научитесь работать с другими людьми.
+				</div>
+				<div class="course__card-btn">
+					<a class="course__card-btnlink" href="#">Подробнее</a>
 				</div>
 			</div>
 		</div>
-		<!-- Courses screen end -->
+	</div>
+</div>
 
-		<!-- Teachers screen start -->
-		<div class="container container__teachers" id="teachers">
-			<div class="container__title">
-				<h2 class="container__title-title">Наши преподаватели</h2>
+      <div class="container section container__teachers scroll-to" id="teachers">
+	<div class="container__title">
+		<h2 class="container__title-title">Наши преподаватели</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"
+			>Каждый из них имеет как минимум 3-летний опыт персональной практики
+			методики</span
+		>
+	</div>
+	<div class="container__content">
+		<div class="teachers">
+			<div class="teacher__card">
+				<div class="teacher__card-photo">
+					<img src="img/teacher1.jpg" alt="Учитель 1" />
+				</div>
+				<div class="teacher__card-title">Николенко Валерий Иванович</div>
+				<div class="teacher__card-desc">Автор методики</div>
 			</div>
-			<div class="container__desc">
-				<span class="container__desc-desc"
-					>Каждый из них имеет как минимум 3-летний опыт персональной практики
-					методики</span
-				>
+			<div class="teacher__card">
+				<div class="teacher__card-photo">
+					<img src="img/teacher2.jpg" alt="Учитель 2" />
+				</div>
+				<div class="teacher__card-title">Николенко Жанна Анатольевна</div>
+				<div class="teacher__card-desc">Преподаватель, автор курса</div>
 			</div>
-			<div class="container__content">
-				<div class="teachers">
-					<div class="teacher__card">
-						<div class="teacher__card-photo">
-							<img src="img/teacher1.jpg" alt="Учитель 1" />
-						</div>
-						<div class="teacher__card-title">Николенко Валерий Иванович</div>
-						<div class="teacher__card-desc">Автор методики</div>
-					</div>
-					<div class="teacher__card">
-						<div class="teacher__card-photo">
-							<img src="img/teacher2.jpg" alt="Учитель 2" />
-						</div>
-						<div class="teacher__card-title">Николенко Жанна Анатольевна</div>
-						<div class="teacher__card-desc">Преподаватель, автор курса</div>
-					</div>
-					<div class="teacher__card">
-						<div class="teacher__card-photo">
-							<img src="img/teacher3.jpg" alt="Учитель 3" />
-						</div>
-						<div class="teacher__card-title">Антонина Юрович</div>
-						<div class="teacher__card-desc">Преподаватель</div>
-					</div>
-					<div class="teacher__card">
-						<div class="teacher__card-photo">
-							<img src="img/teacher4.jpg" alt="Учитель 4" />
-						</div>
-						<div class="teacher__card-title">Екатерина Хабарова</div>
-						<div class="teacher__card-desc">Преподаватель</div>
-					</div>
+			<div class="teacher__card">
+				<div class="teacher__card-photo">
+					<img src="img/teacher3.jpg" alt="Учитель 3" />
+				</div>
+				<div class="teacher__card-title">Антонина Юрович</div>
+				<div class="teacher__card-desc">Преподаватель</div>
+			</div>
+			<div class="teacher__card">
+				<div class="teacher__card-photo">
+					<img src="img/teacher4.jpg" alt="Учитель 4" />
+				</div>
+				<div class="teacher__card-title">Екатерина Хабарова</div>
+				<div class="teacher__card-desc">Преподаватель</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+      <div class="container section container__sales scroll-to" id="sales">
+	<div class="container__title">
+		<h2 class="container__title-title">Выберите уровень обучения</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"
+			>Мы предоставляем гибкую систему оплаты занятий. Возможна
+			рассрочка.</span
+		>
+	</div>
+	<div class="container__content">
+		<div class="sales">
+			<div class="sale__card">
+				<div class="sale__card-title">Основы самоуправления</div>
+				<div class="sale__card-desc">Начальный уровень</div>
+				<div class="sale__card-price">23800 руб.</div>
+				<div class="sale__card-btn">
+					<a class="sale__card-btnlink" href="#">Купить</a>
+				</div>
+			</div>
+			<div class="sale__card">
+				<div class="sale__card-title">Управление собой 2.0</div>
+				<div class="sale__card-desc">
+					Для тех, кто хочет повысить свой уровень
+				</div>
+				<div class="sale__card-price">23800 руб.</div>
+				<div class="sale__card-btn">
+					<a class="sale__card-btnlink" href="#">Купить</a>
+				</div>
+			</div>
+			<div class="sale__card">
+				<div class="sale__card-title">Управление реальностью 3.0</div>
+				<div class="sale__card-desc">Тренерский курс</div>
+				<div class="sale__card-price">23800 руб.</div>
+				<div class="sale__card-btn">
+					<a class="sale__card-btnlink" href="#">Купить</a>
 				</div>
 			</div>
 		</div>
-		<!-- Teachers screen end -->
+	</div>
+</div>
 
-		<!-- Sale screen start -->
-		<div class="container container__sales" id="sales">
-			<div class="container__title">
-				<h2 class="container__title-title">Выберите уровень обучения</h2>
-			</div>
-			<div class="container__desc">
-				<span class="container__desc-desc"
-					>Мы предоставляем гибкую систему оплаты занятий. Возможна
-					рассрочка.</span
-				>
-			</div>
-			<div class="container__content">
-				<div class="sales">
-					<div class="sale__card">
-						<div class="sale__card-title">Основы самоуправления</div>
-						<div class="sale__card-desc">Начальный уровень</div>
-						<div class="sale__card-price">23800 руб.</div>
-						<div class="sale__card-btn">
-							<a class="sale__card-btnlink" href="#">Купить</a>
-						</div>
-					</div>
-					<div class="sale__card">
-						<div class="sale__card-title">Управление собой 2.0</div>
-						<div class="sale__card-desc">
-							Для тех, кто хочет повысить свой уровень
-						</div>
-						<div class="sale__card-price">23800 руб.</div>
-						<div class="sale__card-btn">
-							<a class="sale__card-btnlink" href="#">Купить</a>
-						</div>
-					</div>
-					<div class="sale__card">
-						<div class="sale__card-title">Управление реальностью 3.0</div>
-						<div class="sale__card-desc">Тренерский курс</div>
-						<div class="sale__card-price">23800 руб.</div>
-						<div class="sale__card-btn">
-							<a class="sale__card-btnlink" href="#">Купить</a>
-						</div>
-					</div>
-				</div>
-			</div>
+      <footer class="footer section bglight" id="contacts">
+	<div class="container footer__container">
+		<div class="footer__title section__title">
+			<h2 class="title__header">Контакты</h2>
 		</div>
-		<!-- Sale screen end -->
+	</div>
+</footer>
 
-		<!-- Contacts screen start -->
-		<div class="container container__contacts" id="contacts">
-			<div class="container__title">
-				<h2 class="container__title-title">Наши контакты</h2>
-			</div>
-			<div class="container__content">
-				<div class="phone">+79231116073</div>
-				<div class="mail">evobiospace@gmail.com</div>
-				<div class="socials"></div>
-			</div>
-		</div>
-		<!-- Contacts screen end -->
-
-		<script
-			type="text/javascript"
-			src="//code.jquery.com/jquery-1.11.0.min.js"
-		></script>
-		<script
-			type="text/javascript"
-			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-		></script>
-		<script src="js/main.js"></script>
-	</body>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
