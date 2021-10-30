@@ -15,7 +15,7 @@
       <header class="header">
   <div class="container header__container">
     
-    <a href="" class="logo header__logo">
+    <a href="/" class="logo header__logo">
       <!-- <img src="img/logo.svg" alt="EvoBioSpace"></img> -->
       <img src="img/logo.svg" alt="EvoBioSpace"></img>
     </a>
@@ -28,11 +28,10 @@
       <ul class="menu__list">
         <li><a href="index.html" class="menu__link">Главная</a></li>
         <li>
-          <a href="#" class="menu__link">О нас</a>
+          <a data-goto=".container__about" href="prepodovateli.html" class="menu__link">О нас</a>
           <span class="menu__arrow"></span>
           <ul class="menu__sub-list">
-            <li><a href="prepodovateli.html" class="menu__sub-link">Преподаватели</a></li>
-            <li><a href="kursi.html" class="menu__sub-link">Обучение</a></li>
+            <li><a data-goto=".container__teachers" href="prepodovateli.html#teachers" class="menu__sub-link">Преподаватели</a></li>
           </ul>
         </li>
         <li>
@@ -43,34 +42,32 @@
             <li><a data-goto=".container__method" href="metod.html#method" class="menu__sub-link">О методике</a></li>
           </ul>
         </li>
+        <li>
+          <a href="kursi.html" class="menu__link">Обучение</a>
+          <span class="menu__arrow"></span>
+          <ul class="menu__sub-list">
+            <li><a  href="kursi.html" class="menu__sub-link">Отзывы</a></li>
+          </ul>
+        </li>
+
+
+        <li>
+          <a href="#" class="menu__link">Проекты</a>
+          <span class="menu__arrow"></span>
+          <ul class="menu__sub-list">
+            <li><a  href="#" class="menu__sub-link">Активирующие настройки сознания</a></li>
+            <li><a  href="#" class="menu__sub-link">Творческая мастерская</a></li>
+            <li><a  href="#" class="menu__sub-link">Научная лаборатория</a></li>
+            <li><a  href="#" class="menu__sub-link">Публикации</a></li>
+          </ul>
+        </li>
+
+
+
         <li><a href="uslugi.html" class="menu__link">Услуги</a></li>
-        <li><a href="partneri.html" class="menu__link">Партнеры</a></li>
-        <li><a href="#" class="menu__link">Проекты</a></li>
-        <li><a data-goto=".footer" href="#" class="menu__link">Контакты</a></li>
+        <li><a href="kontakti.html" class="menu__link">Контакты</a></li>
       </ul>
     </nav>
-
-    <!-- <nav class="menu__body"> 
-      <ul class="menu__list">
-        <li><a href="index.html" class="menu__link">Главная</a></li>
-        <li><a href="#" class="menu__link">О нас</a></li>
-        <li>
-          <a href="metod.html" class="menu__link">Метод</a>
-          <span class="menu__arrow"></span>
-          <ul class="menu__sub-list">
-            <li><a data-goto=".container__autor" href="metod.html#autor" class="menu__sub-link">Об авторе</a></li>
-            <li><a data-goto=".container__method" href="metod.html#method" class="menu__sub-link">О методике</a></li>
-          </ul>
-        </li>
-        <li><a href="#" class="menu__link">Обучение</a></li>
-        <li><a href="prepodovateli.html" class="menu__link">Преподаватели</a></li>
-        <li><a href="uslugi.html" class="menu__link">Услуги</a></li>
-        <li><a href="partneri.html" class="menu__link">Партнеры</a></li>
-        <li><a href="#" class="menu__link">Проекты</a></li>
-        <li><a data-goto=".footer" href="#" class="menu__link">Контакты</a></li>
-      </ul>
-    </nav> -->
-
 
     <div class="phone header__phone">
       <a href="tel:+79231116073">+7 (923)-111-60-73</a>
@@ -79,10 +76,45 @@
   </div>
 </header>
  
+      <!-- About author screen start -->
+<div class="container section container__about" id="author">
+	<div class="container__title">
+		<h2 class="container__title-title">О нас</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc">EVOSPACE - территория эволюции сознания и пространство смыслов во времени перемен</span>
+	
+	</div>
+	<div class="container__content">
+		<p>
+			Мы – сообщество людей, осознающих вызовы времени, в котором мы живем,
+			понимаем насущную необходимость коррекции индивидуального и общественного
+			сознания.
+		</p>
+		<p>
+			Мы прошли этапы самовключения и внутреннего развития, вышли на новые
+			уровни осознанности, приблизились к пониманию, как можно получить ответы
+			на многие вопросы бытия человека в современном мире.
+		</p>
+		<p>
+			Получили опыт приобретения целостного мышления, построения новых
+			ценностных ориентиров. Осознали необходимость окультуривания и
+			трансформации сознания, личностного и социального становления. В целях
+			самосохранения и перехода в новый ракурс мышления развиваемся коллективно
+			в сотворчестве смыслов.
+		</p>
+		<p class="align_center"><span>
+			Наша миссия – подготовка учителей, способных осуществлять деятельность по
+			привнесению в сознание людей изменений эволюционного характера.
+		</span></p>
+		<p class="align_center"><span>Предлагаем вам войти в наше сообщество!</span></p>
+	</div>
+</div>
+<!-- About author screen end -->
+
       
       
-      
-      <div class="container section container__teachers scroll-to" id="teachers">
+      <div class="container section container__teachers " id="teachers">
 	<div class="container__title">
 		<h2 class="container__title-title">Наши преподаватели</h2>
 	</div>
@@ -141,27 +173,15 @@
 </div>
 
       
-      <footer class="footer section" id="contacts">
+      <footer class="footer section">
 	<div class="container container__footer">
-		<div class="container__title">
-			<h2 class="container__title-title">Контакты</h2>
-		</div>
-		<div class="container__desc">
-			<span class="container__desc-desc">Наши ресурсы</span>
-		</div>
-		<div class="container__content">
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#fb"></use>
-			</svg>
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#instagram"></use>
-			</svg>
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#yt"></use>
-			</svg>
+		<div class="copyright"><span>&#169;</span> EvoSpace 2021</div>
+		<div class="email">
+			<a href="mailto:evobiospace@gmail.com">evobiospace@gmail.com</a>
 		</div>
 	</div>
 </footer>
+
 
     </div>
     <script src="js/main.js"></script>

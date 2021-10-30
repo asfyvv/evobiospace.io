@@ -15,7 +15,7 @@
       <header class="header">
   <div class="container header__container">
     
-    <a href="" class="logo header__logo">
+    <a href="/" class="logo header__logo">
       <!-- <img src="img/logo.svg" alt="EvoBioSpace"></img> -->
       <img src="img/logo.svg" alt="EvoBioSpace"></img>
     </a>
@@ -28,11 +28,10 @@
       <ul class="menu__list">
         <li><a href="index.html" class="menu__link">Главная</a></li>
         <li>
-          <a href="#" class="menu__link">О нас</a>
+          <a data-goto=".container__about" href="prepodovateli.html" class="menu__link">О нас</a>
           <span class="menu__arrow"></span>
           <ul class="menu__sub-list">
-            <li><a href="prepodovateli.html" class="menu__sub-link">Преподаватели</a></li>
-            <li><a href="kursi.html" class="menu__sub-link">Обучение</a></li>
+            <li><a data-goto=".container__teachers" href="prepodovateli.html#teachers" class="menu__sub-link">Преподаватели</a></li>
           </ul>
         </li>
         <li>
@@ -43,34 +42,32 @@
             <li><a data-goto=".container__method" href="metod.html#method" class="menu__sub-link">О методике</a></li>
           </ul>
         </li>
+        <li>
+          <a href="kursi.html" class="menu__link">Обучение</a>
+          <span class="menu__arrow"></span>
+          <ul class="menu__sub-list">
+            <li><a  href="kursi.html" class="menu__sub-link">Отзывы</a></li>
+          </ul>
+        </li>
+
+
+        <li>
+          <a href="#" class="menu__link">Проекты</a>
+          <span class="menu__arrow"></span>
+          <ul class="menu__sub-list">
+            <li><a  href="#" class="menu__sub-link">Активирующие настройки сознания</a></li>
+            <li><a  href="#" class="menu__sub-link">Творческая мастерская</a></li>
+            <li><a  href="#" class="menu__sub-link">Научная лаборатория</a></li>
+            <li><a  href="#" class="menu__sub-link">Публикации</a></li>
+          </ul>
+        </li>
+
+
+
         <li><a href="uslugi.html" class="menu__link">Услуги</a></li>
-        <li><a href="partneri.html" class="menu__link">Партнеры</a></li>
-        <li><a href="#" class="menu__link">Проекты</a></li>
-        <li><a data-goto=".footer" href="#" class="menu__link">Контакты</a></li>
+        <li><a href="kontakti.html" class="menu__link">Контакты</a></li>
       </ul>
     </nav>
-
-    <!-- <nav class="menu__body"> 
-      <ul class="menu__list">
-        <li><a href="index.html" class="menu__link">Главная</a></li>
-        <li><a href="#" class="menu__link">О нас</a></li>
-        <li>
-          <a href="metod.html" class="menu__link">Метод</a>
-          <span class="menu__arrow"></span>
-          <ul class="menu__sub-list">
-            <li><a data-goto=".container__autor" href="metod.html#autor" class="menu__sub-link">Об авторе</a></li>
-            <li><a data-goto=".container__method" href="metod.html#method" class="menu__sub-link">О методике</a></li>
-          </ul>
-        </li>
-        <li><a href="#" class="menu__link">Обучение</a></li>
-        <li><a href="prepodovateli.html" class="menu__link">Преподаватели</a></li>
-        <li><a href="uslugi.html" class="menu__link">Услуги</a></li>
-        <li><a href="partneri.html" class="menu__link">Партнеры</a></li>
-        <li><a href="#" class="menu__link">Проекты</a></li>
-        <li><a data-goto=".footer" href="#" class="menu__link">Контакты</a></li>
-      </ul>
-    </nav> -->
-
 
     <div class="phone header__phone">
       <a href="tel:+79231116073">+7 (923)-111-60-73</a>
@@ -79,143 +76,64 @@
   </div>
 </header>
  
-      
-      		<!-- About author screen start -->
-		<div class="container section container__autor scroll-to" id="author">
-			<div class="container__title">
-				<h2 class="container__title-title">Об авторе</h2>
-			</div>
-			<div class="container__desc">
-				<span class="container__desc-desc">Валерий Иванович Николенко</span>
-			</div>
-			<div class="container__content">
-				<p>Преподаватель с 30-летним стажем обучения, автор методики.</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-					quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-					tenetur reprehenderit ratione labore similique cumque deserunt,
-					eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-					iste accusantium mollitia repellat. Adipisci temporibus qui,
-					blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-					perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-					facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-					ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-					asperiores harum necessitatibus natus. Modi architecto consectetur
-					natus quas molestiae, possimus harum laborum quis quasi inventore
-					pariatur qui ducimus sint corporis aliquid!
-				</p>
-			</div>
+      <!-- About author screen start -->
+<div class="container section container__autor scroll-to" id="author">
+	<div class="container__title">
+		<h2 class="container__title-title">Об авторе</h2>
+	</div>
+	<div class="container__desc">
+		<span class="container__desc-desc"></span>
+	</div>
+	<div class="container__content">
+		<div class="container__content-photo">
+			<img src="img/noname.jpg" alt="Автор" />
 		</div>
-		<!-- About author screen end -->
+		<p>
+			<span>Николенко Валерий Иванович</span> – автор уникального метода целостного
+			внутреннего био-энерго- информационного обмена, основ самоуправления,
+			самосовершенствования, приобретения внутренней личностной свободы и
+			безопасности в условиях негативного влияния на человека внешней
+			реальности.  Обладает знанием и умением по построению внутренней
+			самоуправляемой системы самосовершенствования личности как предпосылки
+			трансформационных процессов в обществе. Владеет способностью считывания
+			информации с тонкого плана и специфической технологией обеспечения
+			внутренней безопасности субъекта.
+		</p>
+	</div>
+</div>
+<!-- About author screen end -->
 
       <div class="container section container__method scroll-to" id="method">
 	<div class="container__title">
-		<h2 class="container__title-title">О методике</h2>
+		<h2 class="container__title-title">СУТЬ И УНИКАЛЬНОСТЬ МЕТОДИКИ</h2>
 	</div>
 	<div class="container__desc">
-		<span class="container__desc-desc"
-			>Мы предлагаем обучение на разных уровнях для тех, кто хочет научиться
-			управлять собой и своей жизнью.</span
-		>
+		<span class="container__desc-desc"</span>
 	</div>
 	<div class="container__content">
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-			tenetur reprehenderit ratione labore similique cumque deserunt,
-			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-			iste accusantium mollitia repellat. Adipisci temporibus qui,
-			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-			asperiores harum necessitatibus natus. Modi architecto consectetur
-			natus quas molestiae, possimus harum laborum quis quasi inventore
-			pariatur qui ducimus sint corporis aliquid!
-		</p>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-			tenetur reprehenderit ratione labore similique cumque deserunt,
-			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-			iste accusantium mollitia repellat. Adipisci temporibus qui,
-			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-			asperiores harum necessitatibus natus. Modi architecto consectetur
-			natus quas molestiae, possimus harum laborum quis quasi inventore
-			pariatur qui ducimus sint corporis aliquid!
-		</p>
-		<p>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
-			quibusdam reiciendis tempore, dolor ut incidunt dolore molestias
-			tenetur reprehenderit ratione labore similique cumque deserunt,
-			eveniet nemo dolores odit aut molestiae excepturi harum consequatur
-			iste accusantium mollitia repellat. Adipisci temporibus qui,
-			blanditiis ab iusto nulla optio expedita quod vitae! Hic placeat ipsam
-			perferendis iure obcaecati fuga rerum cupiditate ratione laborum
-			facere, possimus animi. Nostrum iure, suscipit dignissimos illum hic
-			ad vitae architecto aspernatur aperiam quo sunt, animi voluptates qui,
-			asperiores harum necessitatibus natus. Modi architecto consectetur
-			natus quas molestiae, possimus harum laborum quis quasi inventore
-			pariatur qui ducimus sint corporis aliquid!
-		</p>
+<p>Методика основана на целостном динамичном механизме регуляции внутренних энергоинформационных
+	потоков.</p>
+<p>Базовым аспектом практики является направленный вектор движения внутреннего саморегулируемого
+	энергетического потока, а также специфического индивидуального информационного наполнения ее контура.</p>
+<p>Мы учитываем наличие тонкомерного уровня и рассматриваем его как мощный фактор воздействия на
+	человека, приводящий к блокированию сознания. Работаем в парадигме «Включение сознания -
+	Разблокирование сознания - Освоение внутренней реальности - Выход на эволюционный уровень мышления».
+	Методика предполагает ускоренную эволюцию сознания и личности.</p>
 	</div>
-	<div class="container__desc-btn">
+	<!-- <div class="container__desc-btn">
 		<a class="btn-link" href="#">Подробнее</a>
-	</div>
+	</div> -->
 </div>
 
-      <footer class="footer section" id="contacts">
+      <footer class="footer section">
 	<div class="container container__footer">
-		<div class="container__title">
-			<h2 class="container__title-title">Контакты</h2>
-		</div>
-		<div class="container__desc">
-			<span class="container__desc-desc">Наши ресурсы</span>
-		</div>
-		<div class="container__content">
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#fb"></use>
-			</svg>
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#instagram"></use>
-			</svg>
-			<svg class="inline-svg-icon">
-				<use xlink:href="img/sprite.svg#yt"></use>
-			</svg>
+		<div class="copyright"><span>&#169;</span> EvoSpace 2021</div>
+		<div class="email">
+			<a href="mailto:evobiospace@gmail.com">evobiospace@gmail.com</a>
 		</div>
 	</div>
 </footer>
+
 
     </div>
     <script src="js/main.js"></script>
