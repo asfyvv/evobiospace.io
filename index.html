@@ -11,6 +11,15 @@
 			content="Мы предлагаем обучение для тех, кто хочет научиться управлять собой и своей жизнью."
 		/>
 		<title>EvoSpace | Вселенная твоего сознания</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/modal-video@2.4.6/css/modal-video.min.css"
+		/>
+		<script src="https://unpkg.com/modal-video@2.4.6/js/modal-video.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="css/main.min.css" />
 	</head>
 	<body>
@@ -47,10 +56,10 @@
         </li>
         <li>
           <a data-goto=".container__courses" href="kursi.html" class="menu__link">Обучение</a>
-          <span class="menu__arrow"></span>
+          <!-- <span class="menu__arrow"></span>
           <ul class="menu__sub-list">
             <li><a data-goto=".container__comments" href="kursi.html#comments" class="menu__sub-link">Отзывы</a></li>
-          </ul>
+          </ul> -->
         </li>
 
 
@@ -68,6 +77,7 @@
 
 
         <li><a href="uslugi.html" class="menu__link">Услуги</a></li>
+        <li><a href="sobitija.html" class="menu__link">События</a></li>
         <li><a href="kontakti.html" class="menu__link">Контакты</a></li>
       </ul>
     </nav>
@@ -78,8 +88,7 @@
   
   </div>
 </header>
- 
-    <div class="intro container section scroll-to" id="main">
+ <div class="intro container section scroll-to" id="main">
 	<div class="intro__slider">
 		<div class="slider__slide active">
 			<img align="middle" src="img/bg1.jpg" alt="Slide 1" />
@@ -180,8 +189,7 @@
 		</div>
 	</div>
 </div>
- 
-    <div class="container container__screen3" id="screen3">
+ <div class="container container__screen3" id="screen3">
 	<div class="container__title">
 		<h2 class="container__title-title">ПРАКТИКА КУРСА ПОЗВОЛИТ ВАМ</h2>
 	</div>
@@ -289,11 +297,133 @@
 		<!-- programm -->
 	</div>
 </div>
- 
-    <div class="container container__comments" id="comments">
+ <div class="container container__comments" id="comments">
 	<div class="comments">
 		<div class="comments__title">Отзывы</div>
-		<div class="comments__body">
+		<div class="swiper">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">
+					<div class="comment">
+						<div class="comment__text">
+							<div class="comment__title align-left">Иван Иванов</div>
+							<div class="comment__desc align-left">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Beatae nostrum autem reiciendis nesciunt, dolorum neque est
+									voluptate sit earum totam assumenda, sequi doloremque
+									molestiae quos laudantium corrupti consequatur voluptas nihil?
+									Obcaecati voluptatibus quod illum quisquam, laudantium nostrum
+									officia cum, velit quis officiis doloribus magni, amet
+									excepturi provident vitae iure! Voluptatum ducimus nesciunt
+									cumque eum iste nobis suscipit excepturi aperiam veritatis!
+								</p>
+							</div>
+						</div>
+						<div class="comment__image">
+							<img src="img/comment1.jpg" alt="Коментарий" />
+							<div class="comment__btn">
+								<p class="youtube__btn btn-link js-modal-btn" data-video-id="IFhdVoS2vRU">Видеоотзыв</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="comment">
+						<div class="comment__text">
+							<div class="comment__title align-left">Татьяна Петрова</div>
+							<div class="comment__desc align-left">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Beatae nostrum autem reiciendis nesciunt, dolorum neque est
+									voluptate sit earum totam assumenda, sequi doloremque
+									molestiae quos laudantium corrupti consequatur voluptas nihil?
+									Obcaecati voluptatibus quod illum quisquam, laudantium nostrum
+									officia cum, velit quis officiis doloribus magni, amet
+									excepturi provident vitae iure! Voluptatum ducimus nesciunt
+									cumque eum iste nobis suscipit excepturi aperiam veritatis!
+								</p>
+							</div>
+						</div>
+						<div class="comment__image">
+							<img src="img/teacher1.jpg" alt="Коментарий" />
+							<div class="comment__btn">
+								<p class="youtube__btn btn-link js-modal-btn" data-video-id="71_7aDfvVtM">Видеоотзыв</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="comment">
+						<div class="comment__text">
+							<div class="comment__title align-left">Татьяна Петрова</div>
+							<div class="comment__desc align-left">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Beatae nostrum autem reiciendis nesciunt, dolorum neque est
+									voluptate sit earum totam assumenda, sequi doloremque
+									molestiae quos laudantium corrupti consequatur voluptas nihil?
+									Obcaecati voluptatibus quod illum quisquam, laudantium nostrum
+									officia cum, velit quis officiis doloribus magni, amet
+									excepturi provident vitae iure! Voluptatum ducimus nesciunt
+									cumque eum iste nobis suscipit excepturi aperiam veritatis!
+								</p>
+							</div>
+						</div>
+						<div class="comment__image">
+							<img src="img/teacher2.jpg" alt="Коментарий" />
+							<div class="comment__btn">
+								<p class="youtube__btn btn-link js-modal-btn" data-video-id="xhX2JftdBrw">Видеоотзыв</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="comment">
+						<div class="comment__text">
+							<div class="comment__title align-left">Татьяна Петрова</div>
+							<div class="comment__desc align-left">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Beatae nostrum autem reiciendis nesciunt, dolorum neque est
+									voluptate sit earum totam assumenda, sequi doloremque
+									molestiae quos laudantium corrupti consequatur voluptas nihil?
+									Obcaecati voluptatibus quod illum quisquam, laudantium nostrum
+									officia cum, velit quis officiis doloribus magni, amet
+									excepturi provident vitae iure! Voluptatum ducimus nesciunt
+									cumque eum iste nobis suscipit excepturi aperiam veritatis!
+								</p>
+							</div>
+						</div>
+						<div class="comment__image">
+							<img src="img/teacher3.jpg" alt="Коментарий" />
+							<div class="comment__btn">
+								<p class="youtube__btn btn-link js-modal-btn" data-video-id="gU9lC8Tf4wg">Видеоотзыв</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div> -->
+			</div>
+		</div>
+
+		<div class="slider__control">
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+		<div class="yt__btn">
+			<a
+				class="btn-link"
+				href="https://www.youtube.com/playlist?list=PLPgvsL5vPmJUGFtQ0Xjh486AZS2l87iM8"
+				target="_blank"
+				>Вcе отзывы</a
+			>
+		</div>
+
+		<!-- <div class="comments__body">
 			<div class="comments__body-fb">Facebook</div>
 			<div class="container__desc-btn fb-btn">
 				<a class="btn-link" href="#">Смотреть еще...</a>
@@ -303,7 +433,7 @@
 			<div class="container__desc-btn yt-btn">
 				<a class="btn-link" href="#">Смотреть еще...</a>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </div>
 
@@ -345,8 +475,7 @@
 		</div>
 	</div>
 </div>
-
-		<footer class="footer section">
+ <footer class="footer section">
 	<div class="container container__footer">
 		<div class="copyright"><span>&#169;</span> EvoSpace 2021</div>
 		<div class="email">
@@ -357,6 +486,17 @@
 
 
 		<!-- </div> -->
+		<!-- <script>
+			window.addEventListener("DOMContentLoaded", function () {
+				youtube: {
+				controls:1,
+			},
+
+				new ModalVideo(".js-modal-btn");
+			});
+		</script> -->
+
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
