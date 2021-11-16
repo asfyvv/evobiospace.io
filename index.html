@@ -11,15 +11,9 @@
 			content="Мы предлагаем обучение для тех, кто хочет научиться управлять собой и своей жизнью."
 		/>
 		<title>EvoSpace | Вселенная твоего сознания</title>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/modal-video@2.4.6/css/modal-video.min.css"
-		/>
-		<script src="https://unpkg.com/modal-video@2.4.6/js/modal-video.min.js"></script>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-		/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 		<link rel="stylesheet" href="css/main.min.css" />
 	</head>
 	<body>
@@ -88,7 +82,8 @@
   
   </div>
 </header>
- <div class="intro container section scroll-to" id="main">
+ 
+    <div class="intro container section scroll-to" id="main">
 	<div class="intro__slider">
 		<div class="slider__slide active">
 			<img align="middle" src="img/bg1.jpg" alt="Slide 1" />
@@ -189,7 +184,8 @@
 		</div>
 	</div>
 </div>
- <div class="container container__screen3" id="screen3">
+ 
+    <div class="container container__screen3" id="screen3">
 	<div class="container__title">
 		<h2 class="container__title-title">ПРАКТИКА КУРСА ПОЗВОЛИТ ВАМ</h2>
 	</div>
@@ -208,8 +204,7 @@
 			<li>сформировать программу личностного развития – нацелить вектор собственных достижений</li>
 			<li>выйти на качественно новый – эволюционный уровень мышления</li>
 	</ul>
-	<p><span class="text__bold text__curs">Курс преподают:  автор методики</span> ВНУТРЕННЕЙ ЭНЕРГОИНФОРМАЦИОННОЙ
-		НЕЗАВИСИМОСТИ <span class="text__bold text__curs">Николенко Валерий Иванович и учителя школы EVOSPACE</span></p>
+	<p><span class="text__bold text__curs">Курс преподают: автор Метода внутренней энергоинформационной независимости Николенко Валерий Иванович и учителя школы EVOSPACE</span></p>
 
 		<!-- levels -->
 		<div class="levels">
@@ -297,7 +292,8 @@
 		<!-- programm -->
 	</div>
 </div>
- <div class="container container__comments" id="comments">
+ 
+    <div class="container container__comments" id="comments">
 	<div class="comments">
 		<div class="comments__title">Отзывы</div>
 		<div class="swiper">
@@ -324,7 +320,7 @@
 						<div class="comment__image">
 							<img src="img/comment1.jpg" alt="Коментарий" />
 							<div class="comment__btn">
-								<p class="youtube__btn btn-link js-modal-btn" data-video-id="IFhdVoS2vRU">Видеоотзыв</p>
+								<a class="youtube__btn btn-link" href="#video1">Видеоотзыв</a>
 							</div>
 						</div>
 					</div>
@@ -349,7 +345,7 @@
 						<div class="comment__image">
 							<img src="img/teacher1.jpg" alt="Коментарий" />
 							<div class="comment__btn">
-								<p class="youtube__btn btn-link js-modal-btn" data-video-id="71_7aDfvVtM">Видеоотзыв</p>
+								<a class="youtube__btn btn-link" href="#">Видеоотзыв</a>
 							</div>
 						</div>
 					</div>
@@ -374,7 +370,7 @@
 						<div class="comment__image">
 							<img src="img/teacher2.jpg" alt="Коментарий" />
 							<div class="comment__btn">
-								<p class="youtube__btn btn-link js-modal-btn" data-video-id="xhX2JftdBrw">Видеоотзыв</p>
+								<a class="youtube__btn btn-link" href="#">Видеоотзыв</a>
 							</div>
 						</div>
 					</div>
@@ -399,7 +395,7 @@
 						<div class="comment__image">
 							<img src="img/teacher3.jpg" alt="Коментарий" />
 							<div class="comment__btn">
-								<p class="youtube__btn btn-link js-modal-btn" data-video-id="gU9lC8Tf4wg">Видеоотзыв</p>
+								<a class="youtube__btn btn-link" href="#">Видеоотзыв</a>
 							</div>
 						</div>
 					</div>
@@ -475,7 +471,8 @@
 		</div>
 	</div>
 </div>
- <footer class="footer section">
+
+		<footer class="footer section">
 	<div class="container container__footer">
 		<div class="copyright"><span>&#169;</span> EvoSpace 2021</div>
 		<div class="email">
@@ -486,17 +483,11 @@
 
 
 		<!-- </div> -->
-		<!-- <script>
-			window.addEventListener("DOMContentLoaded", function () {
-				youtube: {
-				controls:1,
-			},
-
-				new ModalVideo(".js-modal-btn");
-			});
-		</script> -->
-
 		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
