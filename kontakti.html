@@ -16,8 +16,8 @@
 	</head>
 	<body>
 		<div class="site-container">
-			<header class="header">
-  <div class="container header__container">
+			<header class="header lock-padding">
+  <div class="container header__container ">
     
     <!-- <a href="index.html" > -->
       <!-- <img src="img/logo.svg" alt="EvoBioSpace"></img> -->
@@ -56,10 +56,10 @@
 
 
         <li>
-          <a href="#" class="menu__link">Проекты</a>
+          <a href="proekti.html" class="menu__link">Проекты</a>
           <span class="menu__arrow"></span>
           <ul class="menu__sub-list">
-            <li><a  href="#" class="menu__sub-link">Включенное сознание</a></li>
+            <li><a  href="vkluchennoe-soznanie.html" class="menu__sub-link">Включенное сознание</a></li>
             <li><a  href="#" class="menu__sub-link">Творческая мастерская</a></li>
             <li><a  href="#" class="menu__sub-link">Лаборатория мысли</a></li>
             <li><a  href="#" class="menu__sub-link">Публикации</a></li>
@@ -89,6 +89,13 @@
 	<div class="container__desc">
 		<span class="container__desc-desc">Наши ресурсы</span>
 	</div>
+
+	<a class="popup-link" href="#popup">POPUP</a>
+	<p class="test1"> ПРОБА ПЕРА</з>
+	<p class="test2" id="">ПРОБА ПЕРА</p>
+	<p class="test3" id="">ПРОБА ПЕРА</p>
+	<p class="test4" id="">ПРОБА ПЕРА</p>
+	<p class="test5" id="">ПРОБА ПЕРА</p>
 	<div class="container__content">
 			<svg class="inline-svg-icon">
 				<use xlink:href="img/sprite.svg#fb"></use>
@@ -99,8 +106,76 @@
 			<svg class="inline-svg-icon">
 				<use xlink:href="img/sprite.svg#yt"></use>
 			</svg>
-
 	</div>
+	<div id="popup" class="popup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="#" class="popup__close close-popup"></a>
+			<div class="popup__title"></div>
+			<div class="popup__text">
+				<div class="form popup__form">
+	<form action="#" id="form" class="form__body">
+		<h1 class="form__title">Обратная связь</h1>
+		<div class="form__item">
+			<label for="formName" class="form__label">Имя*:</label>
+			<input id="formName" type="text" name="name" class="form__input _req _name">
+		</div>	
+		<div class="form__item">
+			<label for="formEmail" class="form__label">E-mail*:</label>
+			<input id="formEmail" type="text" name="email" class="form__input _req _email">
+		</div>	
+		<div class="form__item">
+			<label for="formPhone" class="form__label">Телефон*:</label>
+			<input id="formPhone" type="text" name="phone" class="form__input _req _phone">
+		</div>	
+		<div class="form__item">
+			<label for="formMessage" class="form__label">Сообщение:</label>
+			<textarea name="message" id="formMessage" class="form__input"></textarea>	
+		</div>
+		<div class="form__item">
+			<div class="checkbox">
+				<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req"> 
+				<label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="#">Условиями</a>*</span></label>
+			</div>
+		</div>
+		<button type="submit" class="form__button">Отправить</button>
+	</form>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="form popup__form">
+	<form action="#" id="form" class="form__body">
+		<h1 class="form__title">Обратная связь</h1>
+		<div class="form__item">
+			<label for="formName" class="form__label">Имя*:</label>
+			<input id="formName" type="text" name="name" class="form__input _req _name">
+		</div>	
+		<div class="form__item">
+			<label for="formEmail" class="form__label">E-mail*:</label>
+			<input id="formEmail" type="text" name="email" class="form__input _req _email">
+		</div>	
+		<div class="form__item">
+			<label for="formPhone" class="form__label">Телефон*:</label>
+			<input id="formPhone" type="text" name="phone" class="form__input _req _phone">
+		</div>	
+		<div class="form__item">
+			<label for="formMessage" class="form__label">Сообщение:</label>
+			<textarea name="message" id="formMessage" class="form__input"></textarea>	
+		</div>
+		<div class="form__item">
+			<div class="checkbox">
+				<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req"> 
+				<label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="#">Условиями</a>*</span></label>
+			</div>
+		</div>
+		<button type="submit" class="form__button">Отправить</button>
+	</form>
+</div>
+
 </div>
 
       </div>
